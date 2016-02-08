@@ -143,9 +143,8 @@ hr {
 	height:1px;
 	border:0px;
 	border-top: 2px solid #cccccc;
-	width:610px;
-	margin:0;
-	margin-left:20px;
+	width:95%;
+	margin:auto;
 }
 
 #sideBar hr {
@@ -303,15 +302,126 @@ textarea {
 	margin-bottom:25px;
 }
 
+#pic {
+	width:40%;
+	height:40%;
+}
+
+@media screen and (max-width:980px) {
+
+	#pic {
+		width:100%;
+		padding-bottom:20px;
+	}
+
+	header {
+		min-width:730px;
+	}
+
+	#headerArea {
+		width:730px;
+	}
+
+	#contentArea {
+		width:730px;
+	}
+
+	#mainContent {
+		width:400px;
+	}
+
+	input {
+		width:100%;
+	}
+
+	textarea {
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+
+	header {
+		min-width:600px;
+	}
+
+	#headerArea {
+		width:600px;
+	}
+
+	#pic {
+	width:50%;
+	height:50%;
+	}
+
+	#contentArea {
+		width:95%;
+	}
+
+	footer {
+		min-width:100%;
+	}
+
+	#mainContent {
+		width:600px;
+		margin-top:15px;
+		margin-bottom:0px;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	#sideBar {
+		width:600px;
+		margin-top:15px;
+		margin-bottom:15px;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	hr {
+		width:95%;
+		margin:auto;
+	}
+
+	#sideBar hr {
+		width:95%;
+		margin:auto;
+		padding-bottom:20px;
+	}
+
+	input {
+		width:100%;
+	}
+
+	textarea {
+		width:100%;
+	}
+
+	#links {
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:20px;
+		padding-bottom:10px;
+	}
+
+	h2 {
+		padding:20px;
+		text-align:left;
+		margin:0px;
+	}
+
+
+}
+
 @media screen and (max-width:640px) {
 
 	#wrapper {
 		width:100%;
 	}
 
-	#header {
-		width:100%;
-	}
 
 	#headerTitle {
 		width:100%;
@@ -340,6 +450,7 @@ textarea {
 
 	#contentArea {
 		width:95%;
+		padding-top:45px;
 	}
 
 	footer {
@@ -395,4 +506,13 @@ textarea {
 	#mainContent p {
 		margin-top:0px;
 	}
+
+	input {
+		width:100%;
+	}
+
+	textarea {
+		width:100%;
+	}
 }
+
