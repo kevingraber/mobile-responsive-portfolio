@@ -307,6 +307,17 @@ textarea {
 	height:40%;
 }
 
+
+
+
+
+
+
+
+/*ABANDON ALL HOPE*/
+/*YE WHO ENTER HERE*/
+
+
 @media screen and (max-width:980px) {
 
 	#pic {
@@ -336,6 +347,23 @@ textarea {
 
 	textarea {
 		width:100%;
+	}
+
+	.imageText, .imageText2, .imageText3, .imageText4, .imageText5, .imageText6{
+		position:relative;
+		left:0px;
+		top:180px;
+	}
+
+	.center {
+		float:none;
+		margin-left:63px;
+		width:274px;
+	}
+
+
+	footer {
+		min-width:100%;
 	}
 
 }
@@ -370,6 +398,7 @@ textarea {
 		float:none;
 		margin-left:auto;
 		margin-right:auto;
+		display:table;
 	}
 
 	#sideBar {
@@ -411,6 +440,20 @@ textarea {
 		padding:20px;
 		text-align:left;
 		margin:0px;
+	}
+
+	.center {
+		width:240px;
+		float:left;
+	}
+
+
+	.left {
+		margin-left:10px;
+	}
+
+	.top {
+		margin-top:0px;
 	}
 
 
@@ -462,6 +505,7 @@ textarea {
 		margin-top:15px;
 		margin-bottom:0px;
 		position:relative;
+		display:inline-table;
 	}
 
 	#sideBar {
@@ -514,5 +558,45 @@ textarea {
 	textarea {
 		width:100%;
 	}
+
+	.center {
+		width:100%;
+		margin-left:12px;
+	}
+
+	.imageresize {
+		width:95%;
+	}
+
+	.imageText {
+		width:95%;
+		top:360px;
+	}
+
+	.imageText2 {
+		width:95%;
+		top:360px;
+	}
+
+	.imageText3 {
+		width:95%;
+		top:360px;
+	}
+
+	.imageText4 {
+		width:95%;
+		top:360px;
+	}
+
+	.imageText5 {
+		top:360px;
+		width:95%;
+	}
+
+	.imageText6 {
+		top:360px;
+		width:95%;
+	}
+
 }
 
